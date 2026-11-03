@@ -8,33 +8,9 @@ use Illuminate\Http\Request;
 class MemberController extends Controller
 {
     private array $members = [
-        [
-            'id' => 1,
-            'nama' => 'Ahmad Fauzi',
-            'nim' => '220101001',
-            'email' => 'fauzi@student.univ.ac.id',
-            'nomor_telepon' => '081234567890',
-            'alamat' => 'Jl. Sukolilo No. 10, Surabaya',
-            'status' => 'aktif',
-        ],
-        [
-            'id' => 2,
-            'nama' => 'Siti Nurhaliza',
-            'nim' => '220101002',
-            'email' => 'siti@student.univ.ac.id',
-            'nomor_telepon' => '082345678901',
-            'alamat' => 'Jl. Gebang Wetan No. 5, Surabaya',
-            'status' => 'aktif',
-        ],
-        [
-            'id' => 3,
-            'nama' => 'Budi Pratama',
-            'nim' => '210101015',
-            'email' => 'budi@student.univ.ac.id',
-            'nomor_telepon' => '083456789012',
-            'alamat' => 'Jl. Keputih Timur No. 12, Surabaya',
-            'status' => 'nonaktif',
-        ],
+        ['id' => 1, 'nama' => 'Siti Aminah', 'nim' => '2310501001', 'email' => 'siti.aminah@pens.ac.id', 'nomor_telepon' => '081234567890', 'status' => 'aktif'],
+        ['id' => 2, 'nama' => 'Budi Santoso', 'nim' => '2310501002', 'email' => 'budi.santoso@pens.ac.id', 'nomor_telepon' => '081298765432', 'status' => 'aktif'],
+        ['id' => 3, 'nama' => 'Dewi Lestari', 'nim' => '2310501003', 'email' => 'dewi.lestari@pens.ac.id', 'nomor_telepon' => '081211122233', 'status' => 'nonaktif'],
     ];
 
     public function index()
